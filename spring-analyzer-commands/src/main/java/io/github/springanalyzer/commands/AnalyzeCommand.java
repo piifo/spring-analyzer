@@ -35,7 +35,6 @@ public class AnalyzeCommand implements Runnable {
   @Option(names = {"-o", "--output"}, description = "Output file path (default: report.html)", defaultValue = "report.html")
   private String outputPath;
 
-
   /*public void run() {
     progressBar.start("Cloning repositories...", null);
     launchSpringAnalyzeUseCase.run(new CommandConfig(configPath, outputPath));
@@ -70,5 +69,4 @@ public class AnalyzeCommand implements Runnable {
 
     multiProgressBar.stop();
   }
-
 }

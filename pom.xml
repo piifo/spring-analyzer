@@ -30,6 +30,7 @@
     <module>spring-analyzer-domain</module>
     <module>spring-analyzer-application</module>
     <module>spring-analyzer-ui</module>
+
   </modules>
 
   <properties>
